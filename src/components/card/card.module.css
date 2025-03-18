@@ -1,0 +1,43 @@
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 200px;
+    text-align: center;
+    color: #333;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 8px 0;
+}
+
+.small {
+    font-size: 12px;
+    color: #333;
+}
+
+/* Estilo para cards positivos e negativos */
+.positive {
+    color: #00b894;
+    /* Verde para valores positivos */
+}
+
+.negative {
+    color: #d63031;
+    /* Vermelho para valores negativos */
+}
