@@ -15,12 +15,12 @@ export default function Sidebar() {
             </Link>
           </li>
           <li>
-            <Link href="/relatorios">
+            <Link href="/reports">
               <Image src="/Table.svg" alt="Relatórios" width={20} height={20} /> Relatórios
             </Link>
           </li>
           <li>
-            <Link href="/simulacoes">
+            <Link href="/simulacao">
               <Image src="/Pie Chart.svg" alt="Simulações" width={20} height={20} /> Simulações
             </Link>
           </li>

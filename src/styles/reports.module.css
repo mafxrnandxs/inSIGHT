@@ -1,0 +1,85 @@
+/* Estilos para a página de relatórios */
+
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filtros {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 150px;
+  }
+  
+  .botaoBuscar {
+    background-color: #00897b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botaoLimpar {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tabelaContainer {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 16px;
+  }
+  
+  .tabela th, .tabela td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: black;
+  }
+  
+  .tabela th {
+    background-color: #2e7d32;
+    color: white;
+  }
+  
+  .botaoExportar {
+    margin-top: 20px;
+    background-color: #00897b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
