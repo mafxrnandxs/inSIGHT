@@ -1,4 +1,4 @@
-import { createConnection } from "../../lib/mysql";
+import { createConnection } from "../../../lib/mysql";
 
 export async function GET() {
   try {
